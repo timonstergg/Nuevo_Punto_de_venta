@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Venta.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Venta.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Venta.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Venta.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Venta.Domain/Venta.Domain.csproj",
+      "msbuildProject": "../Venta.Domain/Venta.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Venta.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\jovan\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "L:\\PuntoDeVenta\\Application\\Venta.Domain\\Venta.Domain.csproj": {
+              "projectPath": "L:\\PuntoDeVenta\\Application\\Venta.Domain\\Venta.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

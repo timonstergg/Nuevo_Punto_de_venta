@@ -107,6 +107,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Venta.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Venta.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Venta.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Venta.Application.dll": {}
+        }
+      },
+      "Venta.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Venta.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Venta.Domain.dll": {}
+        }
+      },
+      "Venta.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Venta.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Venta.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Venta.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -460,12 +496,29 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Venta.Application/1.0.0": {
+      "type": "project",
+      "path": "../Venta.Application/Venta.Application.csproj",
+      "msbuildProject": "../Venta.Application/Venta.Application.csproj"
+    },
+    "Venta.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Venta.Domain/Venta.Domain.csproj",
+      "msbuildProject": "../Venta.Domain/Venta.Domain.csproj"
+    },
+    "Venta.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Venta.Infrastructure/Venta.Infrastructure.csproj",
+      "msbuildProject": "../Venta.Infrastructure/Venta.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.11",
-      "Swashbuckle.AspNetCore >= 6.5.0"
+      "Swashbuckle.AspNetCore >= 6.5.0",
+      "Venta.Application >= 1.0.0",
+      "Venta.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -500,7 +553,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "L:\\PuntoDeVenta\\Application\\Venta.Application\\Venta.Application.csproj": {
+              "projectPath": "L:\\PuntoDeVenta\\Application\\Venta.Application\\Venta.Application.csproj"
+            },
+            "L:\\PuntoDeVenta\\Application\\Venta.Infrastructure\\Venta.Infrastructure.csproj": {
+              "projectPath": "L:\\PuntoDeVenta\\Application\\Venta.Infrastructure\\Venta.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
