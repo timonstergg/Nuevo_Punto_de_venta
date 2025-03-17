@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZtF7H8I96ZxNgjPagWZIcTFGY92ckOOI7SKUCZVKhWKkvTXpwoT77nv+A0tTcKGP6vv0xlF3Mi5oXoSLiRN4AA==",
+  "dgSpecHash": "806A9W7sox0=",
   "success": true,
-  "projectFilePath": "L:\\PuntoDeVenta\\Application\\Venta.Infrastructure\\Venta.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Application\\Venta.Infrastructure\\Venta.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,4 +1,14 @@
+using Venta.Application.Interfaces;
+using Venta.Application.Services;
+using Venta.Domain.Entities;
+using Venta.Domain.Interfaces;
+using Venta.Infrastructure.Repository;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<IRepository<Persona>, Repository<Persona>>();
+builder.Services.AddScoped<IPersonaService, PersonaService>();
+
 
 // Add services to the container.
 

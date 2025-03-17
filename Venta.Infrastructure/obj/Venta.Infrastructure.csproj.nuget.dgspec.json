@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "L:\\PuntoDeVenta\\Application\\Venta.Infrastructure\\Venta.Infrastructure.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Application\\Venta.Infrastructure\\Venta.Infrastructure.csproj": {}
   },
   "projects": {
-    "L:\\PuntoDeVenta\\Application\\Venta.Domain\\Venta.Domain.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Application\\Venta.Domain\\Venta.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\PuntoDeVenta\\Application\\Venta.Domain\\Venta.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Application\\Venta.Domain\\Venta.Domain.csproj",
         "projectName": "Venta.Domain",
-        "projectPath": "L:\\PuntoDeVenta\\Application\\Venta.Domain\\Venta.Domain.csproj",
-        "packagesPath": "C:\\Users\\jovan\\.nuget\\packages\\",
-        "outputPath": "L:\\PuntoDeVenta\\Application\\Venta.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Application\\Venta.Domain\\Venta.Domain.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Application\\Venta.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,30 +56,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "L:\\PuntoDeVenta\\Application\\Venta.Infrastructure\\Venta.Infrastructure.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Application\\Venta.Infrastructure\\Venta.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\PuntoDeVenta\\Application\\Venta.Infrastructure\\Venta.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Application\\Venta.Infrastructure\\Venta.Infrastructure.csproj",
         "projectName": "Venta.Infrastructure",
-        "projectPath": "L:\\PuntoDeVenta\\Application\\Venta.Infrastructure\\Venta.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\jovan\\.nuget\\packages\\",
-        "outputPath": "L:\\PuntoDeVenta\\Application\\Venta.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Application\\Venta.Infrastructure\\Venta.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Application\\Venta.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,8 +104,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "L:\\PuntoDeVenta\\Application\\Venta.Domain\\Venta.Domain.csproj": {
-                "projectPath": "L:\\PuntoDeVenta\\Application\\Venta.Domain\\Venta.Domain.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Application\\Venta.Domain\\Venta.Domain.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Application\\Venta.Domain\\Venta.Domain.csproj"
               }
             }
           }
@@ -103,6 +114,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -119,12 +135,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
